@@ -16,7 +16,7 @@ const Card = ({ data, reference }) => {
             {data.icon ? <MdOutlineFileDownload /> : <IoCloseSharp />}
           </span>
         </div>
-        {data.tag.open&& <div className={` w-full h-[2.8vw] ${"bg-"+data.tag.tagcolor+"-500"} flex  justify-center items-center`}>
+        {data.tag.open&& <div className= 'w-full h-[2.8vw] bg-green-500 flex  justify-center items-center'>
           <h3 className='text-[12px] text-white font-semibold'>{data.tag.tagtitle}</h3>
         </div> }
         
